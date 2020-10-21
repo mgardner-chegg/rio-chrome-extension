@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "My Rio Extension",
+  "name": "Rio Extension",
   "description": "This extension displays Rio events in Chrome Extension",
   "version": "0.0.1",
 
@@ -17,6 +17,6 @@
   },
   "content_security_policy": "script-src 'self' 'sha256-GJLzwSoq8WZFHNYBs2qVYnMDyvnZNKFLvsi77CWYkn0'; object-src 'self'",
   "permissions": [
-    "webRequest","*://*.chegg.com/"
+    "webRequest", "*://*.chegg.com/", "*://*.easybib.com/", "*://*.bibme.org/", "*://*.citationmachine.net/"
   ]
 }
