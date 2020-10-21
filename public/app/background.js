@@ -23,9 +23,9 @@
         
         for (const key in body) {
             if (isNormalInteger(key)) {
-                tabStorage[tabId].requests.push(body[key]);
+                tabStorage[tabId].requests.unshift(body[key]);
             } else {
-                tabStorage[tabId].requests.push(body);
+                tabStorage[tabId].requests.unshift(body);
                 break;
             }
 
