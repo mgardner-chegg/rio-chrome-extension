@@ -3,7 +3,7 @@
 
   "name": "Rio Extension",
   "description": "This extension displays Rio events in Chrome Extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "background": {
     "scripts": ["app/background.js"]
