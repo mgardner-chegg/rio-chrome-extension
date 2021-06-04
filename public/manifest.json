@@ -17,6 +17,6 @@
   },
   "content_security_policy": "script-src 'self' 'sha256-GJLzwSoq8WZFHNYBs2qVYnMDyvnZNKFLvsi77CWYkn0'; object-src 'self'",
   "permissions": [
-    "webRequest", "*://*.chegg.com/", "*://*.easybib.com/", "*://*.bibme.org/", "*://*.citationmachine.net/"
+    "webRequest", "*://*.chegg.com/", "*://*.easybib.com/", "*://*.bibme.org/", "*://*.citationmachine.net/", "*://*.thinkful.com/"
   ]
 }
